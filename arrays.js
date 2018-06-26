@@ -10,7 +10,10 @@ var destructivelyAddElementToBeginningOfArray = (array, element) => {
   return array
 }
 
-var addElementToEndOfArray(array, element) => array.unshift(element)
+var addElementToEndOfArray(array, element) => {
+  array.unshift(element)
+  return array
+}
 
 var accessElementInArray = (array, index) => array[index]
 
