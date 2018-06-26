@@ -15,6 +15,10 @@ var addElementToEndOfArray = (array, element) => {
   return newArray
 }
 
+var destructivelyAddElementToEndOfArray = (array, element) => {
+  return array.push(element)
+}
+
 var accessElementInArray = (array, index) => array[index]
 
 var destructivelyRemoveElementFromBeginningOfArray = array => {
