@@ -11,15 +11,15 @@ var destructivelyAddElementToBeginningOfArray = (array, element) => {
 }
 
 var addElementToEndOfArray(array, element) => {
-  array.unshift(element)
+  array.push(element)
   return array
 }
 
 var accessElementInArray = (array, index) => array[index]
 
 var destructivelyRemoveElementFromBeginningOfArray = array => {
-  array.shift()
-  return array
+  newArray = [...array, element]
+  return newArray
 }
 
 var removeElementFromBeginningOfArray = array => array.slice(1)
