@@ -9,8 +9,8 @@ var destructivelyAddElementToBeginningOfArray = (array, element) => {
   array.unshift(element)
   return array
 }
-//
-// var accessElementInArray = (array, index) => array[index]
+
+var accessElementInArray = (array, index) => array[index]
 //
 // var destructivelyRemoveElementFromBeginningOfArray = array => array.shift() return array
 //
