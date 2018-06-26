@@ -5,12 +5,18 @@ var addElementToBeginningOfArray = (array, element) => {
   return newArray
 };
 
-var destructivelyAddElementToBeginningOfArray = (array, element) => array.unshift(element)
+var destructivelyAddElementToBeginningOfArray = (array, element) => {
+  array.unshift(element)
+  return array
+}
 
 var accessElementInArray = (array, index) => array[index]
-//
-// var destructivelyRemoveElementFromBeginningOfArray = array => array.shift() return array
-//
+
+var destructivelyRemoveElementFromBeginningOfArray = array => {
+  array.shift()
+  return array
+}
+
 // var removeElementFromBeginningOfArray = array => array.slice(1)
 //
 // var destructivelyRemoveElementFromEndOfArray = array => array.pop() return array
